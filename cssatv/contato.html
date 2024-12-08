@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre - Brasil Regiões</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/brasil.jpg" alt="Logo do Brasil">
+        </div>
+        <h1>Brasil Regiões</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html" class="active">Sobre</a></li>
+                <li><a href="nordeste.html">Nordeste</a></li>
+                <li><a href="sudeste.html">Sudeste</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Sobre o Projeto</h2>
+        <p>
+            O site "Brasil Regiões" foi criado com o objetivo de explorar as diversas regiões do Brasil, destacando suas belezas naturais, cultura, gastronomia e história. Este é um projeto fictício desenvolvido para praticar HTML e CSS.
+        </p>
+        <h3>Objetivos</h3>
+        <ul>
+            <li>Divulgar informações sobre as regiões do Brasil.</li>
+            <li>Praticar e demonstrar conhecimentos em HTML e CSS.</li>
+        </ul>
+        <h3>Tecnologias Utilizadas</h3>
+        <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+        </ul>
+
+        <form action="enviar_formulario.php" method="POST">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem"></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+        
+    </main>
+
+    <footer>
+        <p>Contato: contato@brasilregioes.com</p>
+        <p>Siga-nos nas redes sociais: Facebook | Instagram | Twitter</p>
+    </footer>
+</body>
+</html>
